@@ -5,5 +5,5 @@ document.getElementById("main").remove();
 var element = document.createElement("h1");
 document.body.appendChild(element);
 element.id = "victory";
-element.innerHTML = "Brendan is the champion";
+element.innerText = "Brendan is the champion";
 
